@@ -16,8 +16,2253 @@
 -->
 {% block content %}
 
-<h2 class="slds-text-align--center slds-text-heading--large slds-m-around--large">
-  Hello Amazing TrailheaDX Attendees!
-</h2>
+Skip to Content
+SalesforceLightning Design System
+Search
+Search
+Submit your search query
+What's New
+Getting Started
+
+Platforms
+
+Design Guidelines
+
+Accessibility
+
+Component Blueprints
+Overview
+Accordion
+Activity Timeline
+Alert
+App Launcher
+Avatar
+Avatar Group
+Badges
+Brand Band
+Breadcrumbs
+Builder Header
+Button Groups
+Button Icons
+Buttons
+Cards
+Carousel
+Chat
+Checkbox
+Checkbox Button
+Checkbox Button Group
+Checkbox Toggle
+Color Picker
+Combobox
+Data Tables
+Datepickers
+Datetime Picker
+Docked Composer
+Docked Form Footer
+Docked Utility Bar
+Drop Zone
+Dueling Picklist
+Dynamic Icons
+Dynamic Menu
+Expandable Section
+Expression
+Feeds
+File Selector
+Files
+Form Element
+Global Header
+Global Navigation
+Icons
+Illustration
+Input
+List Builder
+Lookups
+Map
+Menus
+Modals
+Notifications
+Page Headers
+Panels
+Path
+Picklist
+Pills
+Popovers
+Progress Bar
+Progress Indicator
+Progress Ring
+Prompt
+Publishers
+Radio Button Group
+Radio Group
+Rich Text Editor
+Scoped Notifications
+Scoped Tabs
+Select
+Setup Assistant
+Slider
+Spinners
+Split View
+Summary Detail
+Tabs
+Textarea
+Tiles
+Timepicker
+Toast
+Tooltips
+Tree Grid
+Trees
+Trial Bar
+Vertical Navigation
+Vertical Tabs
+Visual Picker
+Welcome Mat
+
+Utilities
+Design Tokens
+Icons
+Downloads
+Articles
+FAQ
+List Builder
+HTML/CSS:
+Dev Ready
+Desktop Only
+Sections
+Base
+States
+Items Selected
+Items Disabled
+Items Default Selected
+Examples
+Two Column with Hidden Header
+Filtered Results
+The List builder is a quick, visual and efficient ‘shopping cart’ approach to adding multiple items to a parent object.
+Warning
+
+The List builder relies heavily on utility classes to piece together the layout so please pay close attention to the markup and classes.
+
+Base#
+Add Products
+Pricebook: Salesforce Products
+
+Search
+Search Salesforce
+0 Item(s) Selected
+Sort by:
+Name
+
+Sort by:
+Product Code
+
+Sort by:
+List Price
+
+Sort by:
+Product Family
+
+Select item 1
+Analytics
+ANTLY
+5000.00
+Analytics Product
+Select item 2
+Analytics
+ANTLY
+5000.00
+Analytics Product
+Select item 3
+Analytics
+ANTLY
+5000.00
+Analytics Product
+Select item 4
+Analytics
+ANTLY
+5000.00
+Analytics Product
+Select item 5
+Analytics
+ANTLY
+5000.00
+Analytics Product
+Select item 6
+Analytics
+ANTLY
+5000.00
+Analytics Product
+Select item 7
+Analytics
+ANTLY
+5000.00
+Analytics Product
+Select item 8
+Analytics
+ANTLY
+5000.00
+Analytics Product
+<div class="demo-only demo-only_viewport" style="height:640px">
+  <section role="dialog" tabindex="-1" class="slds-modal slds-fade-in-open slds-modal_large slds-list-builder" aria-labelledby="id-of-modalheader-h2" aria-modal="true" aria-describedby="modal-content-id-1">
+    <div class="slds-modal__container">
+      <header class="slds-modal__header">
+        <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse" title="Close">
+          <svg class="slds-button__icon slds-button__icon_large" aria-hidden="true">
+            <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#close"></use>
+          </svg>
+          <span class="slds-assistive-text">Close</span>
+        </button>
+        <h2 id="id-of-modalheader-h2" class="slds-text-heading_medium">Add Products</h2>
+        <p class="slds-m-top_x-small">Pricebook: Salesforce Products</p>
+      </header>
+      <div class="slds-modal__content slds-grid slds-grow" id="modal-content-id-1">
+        <div class="slds-grid slds-grid_vertical">
+          <div class="slds-p-vertical_x-small slds-p-horizontal_large slds-shrink-none slds-theme_shade">
+            <div class="slds-form-element">
+              <label class="slds-form-element__label slds-assistive-text" for="combobox-unique-id-20">Search</label>
+              <div class="slds-form-element__control">
+                <div class="slds-combobox_container">
+                  <div class="slds-combobox slds-dropdown-trigger slds-dropdown-trigger_click" aria-expanded="false" aria-haspopup="listbox" role="combobox">
+                    <div class="slds-combobox__form-element slds-input-has-icon slds-input-has-icon_right" role="none">
+                      <input type="text" class="slds-input slds-combobox__input" id="combobox-unique-id-20" aria-autocomplete="list" aria-controls="listbox-unique-id" autoComplete="off" role="textbox" placeholder="Search Salesforce" />
+                      <span class="slds-icon_container slds-icon-utility-search slds-input__icon slds-input__icon_right">
+                        <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
+                          <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#search"></use>
+                        </svg>
+                      </span>
+                    </div>
+                    <div id="listbox-unique-id" role="listbox" class="slds-dropdown slds-dropdown_fluid">
+                      <ul class="slds-listbox slds-listbox_vertical" role="presentation">
+                        <li role="presentation" class="slds-listbox__item">
+                          <div id="listbox-option-unique-id-01" class="slds-media slds-listbox__option slds-listbox__option_entity slds-listbox__option_has-meta" role="option">
+                            <span class="slds-media__figure">
+                              <span class="slds-icon_container slds-icon-standard-account">
+                                <svg class="slds-icon slds-icon_small" aria-hidden="true">
+                                  <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#account"></use>
+                                </svg>
+                              </span>
+                            </span>
+                            <span class="slds-media__body">
+                              <span class="slds-listbox__option-text slds-listbox__option-text_entity">Acme</span>
+                              <span class="slds-listbox__option-meta slds-listbox__option-meta_entity">Account • San Francisco</span>
+                            </span>
+                          </div>
+                        </li>
+                        <li role="presentation" class="slds-listbox__item">
+                          <div id="listbox-option-unique-id-02" class="slds-media slds-listbox__option slds-listbox__option_entity slds-listbox__option_has-meta" role="option">
+                            <span class="slds-media__figure">
+                              <span class="slds-icon_container slds-icon-standard-account">
+                                <svg class="slds-icon slds-icon_small" aria-hidden="true">
+                                  <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#account"></use>
+                                </svg>
+                              </span>
+                            </span>
+                            <span class="slds-media__body">
+                              <span class="slds-listbox__option-text slds-listbox__option-text_entity">Salesforce.com, Inc.</span>
+                              <span class="slds-listbox__option-meta slds-listbox__option-meta_entity">Account • San Francisco</span>
+                            </span>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slds-text-title slds-m-top_x-small" aria-live="polite">0 Item(s) Selected</div>
+          </div>
+          <div class="slds-scrollable slds-grow">
+            <div class="slds-scrollable_none">
+              <table aria-multiselectable="true" class="slds-table slds-no-row-hover slds-table_bordered slds-table_fixed-layout slds-table_resizable-cols" role="grid">
+                <thead>
+                  <tr class="slds-line-height_reset">
+                    <th class="" scope="col" style="width:3.75rem"></th>
+                    <th aria-label="Name" aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col">
+                      <a class="slds-th__action slds-text-link_reset" href="javascript:void(0);" role="button" tabindex="-1">
+                        <span class="slds-assistive-text">Sort by: </span>
+                        <div class="slds-grid slds-grid_vertical-align-center slds-has-flexi-truncate">
+                          <span class="slds-truncate" title="Name">Name</span>
+                          <span class="slds-icon_container slds-icon-utility-arrowdown">
+                            <svg class="slds-icon slds-icon-text-default slds-is-sortable__icon " aria-hidden="true">
+                              <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#arrowdown"></use>
+                            </svg>
+                          </span>
+                        </div>
+                      </a>
+                      <div class="slds-resizable">
+                        <input type="range" aria-label="Name column width" class="slds-resizable__input slds-assistive-text" id="cell-resize-handle-65" max="1000" min="20" tabindex="-1" />
+                        <span class="slds-resizable__handle">
+                          <span class="slds-resizable__divider"></span>
+                        </span>
+                      </div>
+                    </th>
+                    <th aria-label="Product Code" aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col">
+                      <a class="slds-th__action slds-text-link_reset" href="javascript:void(0);" role="button" tabindex="-1">
+                        <span class="slds-assistive-text">Sort by: </span>
+                        <div class="slds-grid slds-grid_vertical-align-center slds-has-flexi-truncate">
+                          <span class="slds-truncate" title="Product Code">Product Code</span>
+                          <span class="slds-icon_container slds-icon-utility-arrowdown">
+                            <svg class="slds-icon slds-icon-text-default slds-is-sortable__icon " aria-hidden="true">
+                              <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#arrowdown"></use>
+                            </svg>
+                          </span>
+                        </div>
+                      </a>
+                      <div class="slds-resizable">
+                        <input type="range" aria-label="Product Code column width" class="slds-resizable__input slds-assistive-text" id="cell-resize-handle-66" max="1000" min="20" tabindex="-1" />
+                        <span class="slds-resizable__handle">
+                          <span class="slds-resizable__divider"></span>
+                        </span>
+                      </div>
+                    </th>
+                    <th aria-label="List Price" aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col">
+                      <a class="slds-th__action slds-text-link_reset" href="javascript:void(0);" role="button" tabindex="-1">
+                        <span class="slds-assistive-text">Sort by: </span>
+                        <div class="slds-grid slds-grid_vertical-align-center slds-has-flexi-truncate">
+                          <span class="slds-truncate" title="List Price">List Price</span>
+                          <span class="slds-icon_container slds-icon-utility-arrowdown">
+                            <svg class="slds-icon slds-icon-text-default slds-is-sortable__icon " aria-hidden="true">
+                              <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#arrowdown"></use>
+                            </svg>
+                          </span>
+                        </div>
+                      </a>
+                      <div class="slds-resizable">
+                        <input type="range" aria-label="List Price column width" class="slds-resizable__input slds-assistive-text" id="cell-resize-handle-67" max="1000" min="20" tabindex="-1" />
+                        <span class="slds-resizable__handle">
+                          <span class="slds-resizable__divider"></span>
+                        </span>
+                      </div>
+                    </th>
+                    <th aria-label="Product Family" aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col">
+                      <a class="slds-th__action slds-text-link_reset" href="javascript:void(0);" role="button" tabindex="-1">
+                        <span class="slds-assistive-text">Sort by: </span>
+                        <div class="slds-grid slds-grid_vertical-align-center slds-has-flexi-truncate">
+                          <span class="slds-truncate" title="Product Family">Product Family</span>
+                          <span class="slds-icon_container slds-icon-utility-arrowdown">
+                            <svg class="slds-icon slds-icon-text-default slds-is-sortable__icon " aria-hidden="true">
+                              <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#arrowdown"></use>
+                            </svg>
+                          </span>
+                        </div>
+                      </a>
+                      <div class="slds-resizable">
+                        <input type="range" aria-label="Product Family column width" class="slds-resizable__input slds-assistive-text" id="cell-resize-handle-68" max="1000" min="20" tabindex="-1" />
+                        <span class="slds-resizable__handle">
+                          <span class="slds-resizable__divider"></span>
+                        </span>
+                      </div>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr aria-selected="false" class="slds-hint-parent">
+                    <td class="slds-text-align_right" role="gridcell" tabindex="0">
+                      <div class="slds-checkbox_add-button">
+                        <input type="checkbox" class="slds-assistive-text" id="add-checkbox-132" value="add-checkbox-132" tabindex="-1" />
+                        <label for="add-checkbox-132" class="slds-checkbox_faux">
+                          <span class="slds-assistive-text">Select item 1</span>
+                        </label>
+                      </div>
+                    </td>
+                    <th scope="row">
+                      <div class="slds-truncate" title="Analytics">Analytics</div>
+                    </th>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="ANTLY">ANTLY</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="5000.00">5000.00</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+                    </td>
+                  </tr>
+                  <tr aria-selected="false" class="slds-hint-parent">
+                    <td class="slds-text-align_right" role="gridcell">
+                      <div class="slds-checkbox_add-button">
+                        <input type="checkbox" class="slds-assistive-text" id="add-checkbox-133" value="add-checkbox-133" tabindex="-1" />
+                        <label for="add-checkbox-133" class="slds-checkbox_faux">
+                          <span class="slds-assistive-text">Select item 2</span>
+                        </label>
+                      </div>
+                    </td>
+                    <th scope="row">
+                      <div class="slds-truncate" title="Analytics">Analytics</div>
+                    </th>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="ANTLY">ANTLY</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="5000.00">5000.00</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+                    </td>
+                  </tr>
+                  <tr aria-selected="false" class="slds-hint-parent">
+                    <td class="slds-text-align_right" role="gridcell">
+                      <div class="slds-checkbox_add-button">
+                        <input type="checkbox" class="slds-assistive-text" id="add-checkbox-134" value="add-checkbox-134" tabindex="-1" />
+                        <label for="add-checkbox-134" class="slds-checkbox_faux">
+                          <span class="slds-assistive-text">Select item 3</span>
+                        </label>
+                      </div>
+                    </td>
+                    <th scope="row">
+                      <div class="slds-truncate" title="Analytics">Analytics</div>
+                    </th>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="ANTLY">ANTLY</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="5000.00">5000.00</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+                    </td>
+                  </tr>
+                  <tr aria-selected="false" class="slds-hint-parent">
+                    <td class="slds-text-align_right" role="gridcell">
+                      <div class="slds-checkbox_add-button">
+                        <input type="checkbox" class="slds-assistive-text" id="add-checkbox-135" value="add-checkbox-135" tabindex="-1" />
+                        <label for="add-checkbox-135" class="slds-checkbox_faux">
+                          <span class="slds-assistive-text">Select item 4</span>
+                        </label>
+                      </div>
+                    </td>
+                    <th scope="row">
+                      <div class="slds-truncate" title="Analytics">Analytics</div>
+                    </th>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="ANTLY">ANTLY</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="5000.00">5000.00</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+                    </td>
+                  </tr>
+                  <tr aria-selected="false" class="slds-hint-parent">
+                    <td class="slds-text-align_right" role="gridcell">
+                      <div class="slds-checkbox_add-button">
+                        <input type="checkbox" class="slds-assistive-text" id="add-checkbox-136" value="add-checkbox-136" tabindex="-1" />
+                        <label for="add-checkbox-136" class="slds-checkbox_faux">
+                          <span class="slds-assistive-text">Select item 5</span>
+                        </label>
+                      </div>
+                    </td>
+                    <th scope="row">
+                      <div class="slds-truncate" title="Analytics">Analytics</div>
+                    </th>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="ANTLY">ANTLY</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="5000.00">5000.00</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+                    </td>
+                  </tr>
+                  <tr aria-selected="false" class="slds-hint-parent">
+                    <td class="slds-text-align_right" role="gridcell">
+                      <div class="slds-checkbox_add-button">
+                        <input type="checkbox" class="slds-assistive-text" id="add-checkbox-137" value="add-checkbox-137" tabindex="-1" />
+                        <label for="add-checkbox-137" class="slds-checkbox_faux">
+                          <span class="slds-assistive-text">Select item 6</span>
+                        </label>
+                      </div>
+                    </td>
+                    <th scope="row">
+                      <div class="slds-truncate" title="Analytics">Analytics</div>
+                    </th>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="ANTLY">ANTLY</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="5000.00">5000.00</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+                    </td>
+                  </tr>
+                  <tr aria-selected="false" class="slds-hint-parent">
+                    <td class="slds-text-align_right" role="gridcell">
+                      <div class="slds-checkbox_add-button">
+                        <input type="checkbox" class="slds-assistive-text" id="add-checkbox-138" value="add-checkbox-138" tabindex="-1" />
+                        <label for="add-checkbox-138" class="slds-checkbox_faux">
+                          <span class="slds-assistive-text">Select item 7</span>
+                        </label>
+                      </div>
+                    </td>
+                    <th scope="row">
+                      <div class="slds-truncate" title="Analytics">Analytics</div>
+                    </th>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="ANTLY">ANTLY</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="5000.00">5000.00</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+                    </td>
+                  </tr>
+                  <tr aria-selected="false" class="slds-hint-parent">
+                    <td class="slds-text-align_right" role="gridcell">
+                      <div class="slds-checkbox_add-button">
+                        <input type="checkbox" class="slds-assistive-text" id="add-checkbox-139" value="add-checkbox-139" tabindex="-1" />
+                        <label for="add-checkbox-139" class="slds-checkbox_faux">
+                          <span class="slds-assistive-text">Select item 8</span>
+                        </label>
+                      </div>
+                    </td>
+                    <th scope="row">
+                      <div class="slds-truncate" title="Analytics">Analytics</div>
+                    </th>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="ANTLY">ANTLY</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="5000.00">5000.00</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="slds-modal__footer">
+        <button class="slds-button slds-button_neutral">Cancel</button>
+        <button class="slds-button slds-button_brand">Next</button>
+      </footer>
+    </div>
+  </section>
+  <div class="slds-backdrop slds-backdrop_open"></div>
+</div>
+States#
+Items Selected#
+Add Products
+Pricebook: Salesforce Products
+
+Search
+Search Salesforce
+Analytics
+Press delete or backspace to remove
+1 Item(s) Selected
+Sort by:
+Name
+
+Sort by:
+Product Code
+
+Sort by:
+List Price
+
+Sort by:
+Product Family
+
+Select item 1
+Analytics
+ANTLY
+5000.00
+Analytics Product
+Select item 2
+Analytics
+ANTLY
+5000.00
+Analytics Product
+Select item 3
+Analytics
+ANTLY
+5000.00
+Analytics Product
+Select item 4
+Analytics
+ANTLY
+5000.00
+Analytics Product
+Select item 5
+Analytics
+ANTLY
+5000.00
+Analytics Product
+Select item 6
+Analytics
+ANTLY
+5000.00
+Analytics Product
+Select item 7
+Analytics
+ANTLY
+5000.00
+Analytics Product
+Select item 8
+Analytics
+ANTLY
+5000.00
+Analytics Product
+<div class="demo-only demo-only_viewport" style="height:640px">
+  <section role="dialog" tabindex="-1" class="slds-modal slds-fade-in-open slds-modal_large" aria-labelledby="id-of-modalheader-h2" aria-modal="true" aria-describedby="modal-content-id-1">
+    <div class="slds-modal__container">
+      <header class="slds-modal__header">
+        <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse" title="Close">
+          <svg class="slds-button__icon slds-button__icon_large" aria-hidden="true">
+            <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#close"></use>
+          </svg>
+          <span class="slds-assistive-text">Close</span>
+        </button>
+        <h2 id="id-of-modalheader-h2" class="slds-text-heading_medium">Add Products</h2>
+        <p class="slds-m-top_x-small">Pricebook: Salesforce Products</p>
+      </header>
+      <div class="slds-modal__content slds-grid slds-nowrap" id="modal-content-id-1">
+        <div class="slds-col slds-grid slds-grid_vertical slds-nowrap">
+          <div class="slds-p-vertical_x-small slds-p-horizontal_large slds-shrink-none slds-theme_shade">
+            <div class="slds-form-element">
+              <label class="slds-form-element__label slds-assistive-text" for="combobox-unique-id-6">Search</label>
+              <div class="slds-form-element__control">
+                <div class="slds-combobox_container">
+                  <div class="slds-combobox slds-dropdown-trigger slds-dropdown-trigger_click" aria-expanded="false" aria-haspopup="listbox" role="combobox">
+                    <div class="slds-combobox__form-element slds-input-has-icon slds-input-has-icon_right" role="none">
+                      <input type="text" class="slds-input slds-combobox__input" id="combobox-unique-id-6" aria-autocomplete="list" aria-controls="listbox-unique-id" autoComplete="off" role="textbox" placeholder="Search Salesforce" />
+                      <span class="slds-icon_container slds-icon-utility-search slds-input__icon slds-input__icon_right">
+                        <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
+                          <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#search"></use>
+                        </svg>
+                      </span>
+                    </div>
+                    <div id="listbox-unique-id" role="listbox" class="slds-dropdown slds-dropdown_fluid">
+                      <ul class="slds-listbox slds-listbox_vertical" role="presentation">
+                        <li role="presentation" class="slds-listbox__item">
+                          <div id="listbox-option-unique-id-01" class="slds-media slds-listbox__option slds-listbox__option_entity slds-listbox__option_has-meta" role="option">
+                            <span class="slds-media__figure">
+                              <span class="slds-icon_container slds-icon-standard-account">
+                                <svg class="slds-icon slds-icon_small" aria-hidden="true">
+                                  <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#account"></use>
+                                </svg>
+                              </span>
+                            </span>
+                            <span class="slds-media__body">
+                              <span class="slds-listbox__option-text slds-listbox__option-text_entity">Acme</span>
+                              <span class="slds-listbox__option-meta slds-listbox__option-meta_entity">Account • San Francisco</span>
+                            </span>
+                          </div>
+                        </li>
+                        <li role="presentation" class="slds-listbox__item">
+                          <div id="listbox-option-unique-id-02" class="slds-media slds-listbox__option slds-listbox__option_entity slds-listbox__option_has-meta" role="option">
+                            <span class="slds-media__figure">
+                              <span class="slds-icon_container slds-icon-standard-account">
+                                <svg class="slds-icon slds-icon_small" aria-hidden="true">
+                                  <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#account"></use>
+                                </svg>
+                              </span>
+                            </span>
+                            <span class="slds-media__body">
+                              <span class="slds-listbox__option-text slds-listbox__option-text_entity">Salesforce.com, Inc.</span>
+                              <span class="slds-listbox__option-meta slds-listbox__option-meta_entity">Account • San Francisco</span>
+                            </span>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slds-pill_container slds-pill_container_bare">
+              <ul class="slds-listbox slds-listbox_horizontal" role="listbox" aria-label="Selected Options:" aria-orientation="horizontal">
+                <li class="slds-listbox-item" role="presentation">
+                  <span class="slds-pill" role="option" tabindex="0" aria-selected="true">
+                    <span class="slds-pill__label" title="Analytics">Analytics</span>
+                    <span class="slds-icon_container slds-pill__remove" title="Remove">
+                      <svg class="slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
+                        <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#close"></use>
+                      </svg>
+                      <span class="slds-assistive-text">Press delete or backspace to remove</span>
+                    </span>
+                  </span>
+                </li>
+              </ul>
+            </div>
+            <div class="slds-text-title slds-m-top_x-small" aria-live="polite">1 Item(s) Selected</div>
+          </div>
+          <div class="slds-scrollable slds-grow">
+            <div class="slds-scrollable_none">
+              <table aria-multiselectable="true" class="slds-table slds-no-row-hover slds-table_bordered slds-table_fixed-layout slds-table_resizable-cols" role="grid">
+                <thead>
+                  <tr class="slds-line-height_reset">
+                    <th class="" scope="col" style="width:3.75rem"></th>
+                    <th aria-label="Name" aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col">
+                      <a class="slds-th__action slds-text-link_reset" href="javascript:void(0);" role="button" tabindex="-1">
+                        <span class="slds-assistive-text">Sort by: </span>
+                        <div class="slds-grid slds-grid_vertical-align-center slds-has-flexi-truncate">
+                          <span class="slds-truncate" title="Name">Name</span>
+                          <span class="slds-icon_container slds-icon-utility-arrowdown">
+                            <svg class="slds-icon slds-icon-text-default slds-is-sortable__icon " aria-hidden="true">
+                              <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#arrowdown"></use>
+                            </svg>
+                          </span>
+                        </div>
+                      </a>
+                      <div class="slds-resizable">
+                        <input type="range" aria-label="Name column width" class="slds-resizable__input slds-assistive-text" id="cell-resize-handle-21" max="1000" min="20" tabindex="-1" />
+                        <span class="slds-resizable__handle">
+                          <span class="slds-resizable__divider"></span>
+                        </span>
+                      </div>
+                    </th>
+                    <th aria-label="Product Code" aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col">
+                      <a class="slds-th__action slds-text-link_reset" href="javascript:void(0);" role="button" tabindex="-1">
+                        <span class="slds-assistive-text">Sort by: </span>
+                        <div class="slds-grid slds-grid_vertical-align-center slds-has-flexi-truncate">
+                          <span class="slds-truncate" title="Product Code">Product Code</span>
+                          <span class="slds-icon_container slds-icon-utility-arrowdown">
+                            <svg class="slds-icon slds-icon-text-default slds-is-sortable__icon " aria-hidden="true">
+                              <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#arrowdown"></use>
+                            </svg>
+                          </span>
+                        </div>
+                      </a>
+                      <div class="slds-resizable">
+                        <input type="range" aria-label="Product Code column width" class="slds-resizable__input slds-assistive-text" id="cell-resize-handle-22" max="1000" min="20" tabindex="-1" />
+                        <span class="slds-resizable__handle">
+                          <span class="slds-resizable__divider"></span>
+                        </span>
+                      </div>
+                    </th>
+                    <th aria-label="List Price" aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col">
+                      <a class="slds-th__action slds-text-link_reset" href="javascript:void(0);" role="button" tabindex="-1">
+                        <span class="slds-assistive-text">Sort by: </span>
+                        <div class="slds-grid slds-grid_vertical-align-center slds-has-flexi-truncate">
+                          <span class="slds-truncate" title="List Price">List Price</span>
+                          <span class="slds-icon_container slds-icon-utility-arrowdown">
+                            <svg class="slds-icon slds-icon-text-default slds-is-sortable__icon " aria-hidden="true">
+                              <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#arrowdown"></use>
+                            </svg>
+                          </span>
+                        </div>
+                      </a>
+                      <div class="slds-resizable">
+                        <input type="range" aria-label="List Price column width" class="slds-resizable__input slds-assistive-text" id="cell-resize-handle-23" max="1000" min="20" tabindex="-1" />
+                        <span class="slds-resizable__handle">
+                          <span class="slds-resizable__divider"></span>
+                        </span>
+                      </div>
+                    </th>
+                    <th aria-label="Product Family" aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col">
+                      <a class="slds-th__action slds-text-link_reset" href="javascript:void(0);" role="button" tabindex="-1">
+                        <span class="slds-assistive-text">Sort by: </span>
+                        <div class="slds-grid slds-grid_vertical-align-center slds-has-flexi-truncate">
+                          <span class="slds-truncate" title="Product Family">Product Family</span>
+                          <span class="slds-icon_container slds-icon-utility-arrowdown">
+                            <svg class="slds-icon slds-icon-text-default slds-is-sortable__icon " aria-hidden="true">
+                              <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#arrowdown"></use>
+                            </svg>
+                          </span>
+                        </div>
+                      </a>
+                      <div class="slds-resizable">
+                        <input type="range" aria-label="Product Family column width" class="slds-resizable__input slds-assistive-text" id="cell-resize-handle-24" max="1000" min="20" tabindex="-1" />
+                        <span class="slds-resizable__handle">
+                          <span class="slds-resizable__divider"></span>
+                        </span>
+                      </div>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr aria-selected="true" class="slds-hint-parent slds-is-selected">
+                    <td class="slds-text-align_right" role="gridcell" tabindex="0">
+                      <div class="slds-checkbox_add-button">
+                        <input type="checkbox" class="slds-assistive-text" id="add-checkbox-41" value="add-checkbox-41" tabindex="-1" checked="" />
+                        <label for="add-checkbox-41" class="slds-checkbox_faux">
+                          <span class="slds-assistive-text">Select item 1</span>
+                        </label>
+                      </div>
+                    </td>
+                    <th scope="row">
+                      <div class="slds-truncate" title="Analytics">Analytics</div>
+                    </th>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="ANTLY">ANTLY</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="5000.00">5000.00</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+                    </td>
+                  </tr>
+                  <tr aria-selected="false" class="slds-hint-parent">
+                    <td class="slds-text-align_right" role="gridcell">
+                      <div class="slds-checkbox_add-button">
+                        <input type="checkbox" class="slds-assistive-text" id="add-checkbox-42" value="add-checkbox-42" tabindex="-1" />
+                        <label for="add-checkbox-42" class="slds-checkbox_faux">
+                          <span class="slds-assistive-text">Select item 2</span>
+                        </label>
+                      </div>
+                    </td>
+                    <th scope="row">
+                      <div class="slds-truncate" title="Analytics">Analytics</div>
+                    </th>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="ANTLY">ANTLY</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="5000.00">5000.00</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+                    </td>
+                  </tr>
+                  <tr aria-selected="false" class="slds-hint-parent">
+                    <td class="slds-text-align_right" role="gridcell">
+                      <div class="slds-checkbox_add-button">
+                        <input type="checkbox" class="slds-assistive-text" id="add-checkbox-43" value="add-checkbox-43" tabindex="-1" />
+                        <label for="add-checkbox-43" class="slds-checkbox_faux">
+                          <span class="slds-assistive-text">Select item 3</span>
+                        </label>
+                      </div>
+                    </td>
+                    <th scope="row">
+                      <div class="slds-truncate" title="Analytics">Analytics</div>
+                    </th>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="ANTLY">ANTLY</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="5000.00">5000.00</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+                    </td>
+                  </tr>
+                  <tr aria-selected="false" class="slds-hint-parent">
+                    <td class="slds-text-align_right" role="gridcell">
+                      <div class="slds-checkbox_add-button">
+                        <input type="checkbox" class="slds-assistive-text" id="add-checkbox-44" value="add-checkbox-44" tabindex="-1" />
+                        <label for="add-checkbox-44" class="slds-checkbox_faux">
+                          <span class="slds-assistive-text">Select item 4</span>
+                        </label>
+                      </div>
+                    </td>
+                    <th scope="row">
+                      <div class="slds-truncate" title="Analytics">Analytics</div>
+                    </th>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="ANTLY">ANTLY</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="5000.00">5000.00</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+                    </td>
+                  </tr>
+                  <tr aria-selected="false" class="slds-hint-parent">
+                    <td class="slds-text-align_right" role="gridcell">
+                      <div class="slds-checkbox_add-button">
+                        <input type="checkbox" class="slds-assistive-text" id="add-checkbox-45" value="add-checkbox-45" tabindex="-1" />
+                        <label for="add-checkbox-45" class="slds-checkbox_faux">
+                          <span class="slds-assistive-text">Select item 5</span>
+                        </label>
+                      </div>
+                    </td>
+                    <th scope="row">
+                      <div class="slds-truncate" title="Analytics">Analytics</div>
+                    </th>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="ANTLY">ANTLY</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="5000.00">5000.00</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+                    </td>
+                  </tr>
+                  <tr aria-selected="false" class="slds-hint-parent">
+                    <td class="slds-text-align_right" role="gridcell">
+                      <div class="slds-checkbox_add-button">
+                        <input type="checkbox" class="slds-assistive-text" id="add-checkbox-46" value="add-checkbox-46" tabindex="-1" />
+                        <label for="add-checkbox-46" class="slds-checkbox_faux">
+                          <span class="slds-assistive-text">Select item 6</span>
+                        </label>
+                      </div>
+                    </td>
+                    <th scope="row">
+                      <div class="slds-truncate" title="Analytics">Analytics</div>
+                    </th>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="ANTLY">ANTLY</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="5000.00">5000.00</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+                    </td>
+                  </tr>
+                  <tr aria-selected="false" class="slds-hint-parent">
+                    <td class="slds-text-align_right" role="gridcell">
+                      <div class="slds-checkbox_add-button">
+                        <input type="checkbox" class="slds-assistive-text" id="add-checkbox-47" value="add-checkbox-47" tabindex="-1" />
+                        <label for="add-checkbox-47" class="slds-checkbox_faux">
+                          <span class="slds-assistive-text">Select item 7</span>
+                        </label>
+                      </div>
+                    </td>
+                    <th scope="row">
+                      <div class="slds-truncate" title="Analytics">Analytics</div>
+                    </th>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="ANTLY">ANTLY</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="5000.00">5000.00</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+                    </td>
+                  </tr>
+                  <tr aria-selected="false" class="slds-hint-parent">
+                    <td class="slds-text-align_right" role="gridcell">
+                      <div class="slds-checkbox_add-button">
+                        <input type="checkbox" class="slds-assistive-text" id="add-checkbox-48" value="add-checkbox-48" tabindex="-1" />
+                        <label for="add-checkbox-48" class="slds-checkbox_faux">
+                          <span class="slds-assistive-text">Select item 8</span>
+                        </label>
+                      </div>
+                    </td>
+                    <th scope="row">
+                      <div class="slds-truncate" title="Analytics">Analytics</div>
+                    </th>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="ANTLY">ANTLY</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="5000.00">5000.00</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="slds-modal__footer">
+        <button class="slds-button slds-button_neutral">Cancel</button>
+        <button class="slds-button slds-button_brand">Next</button>
+      </footer>
+    </div>
+  </section>
+  <div class="slds-backdrop slds-backdrop_open"></div>
+</div>
+Items Disabled#
+Add Products
+Pricebook: Salesforce Products
+
+Search
+Search Salesforce
+0 Item(s) Selected
+Sort by:
+Name
+
+Sort by:
+Product Code
+
+Sort by:
+List Price
+
+Sort by:
+Product Family
+
+Select item 1
+Analytics
+ANTLY
+5000.00
+Analytics Product
+Select item 2
+Analytics
+ANTLY
+5000.00
+Analytics Product
+Select item 3
+Analytics
+ANTLY
+5000.00
+Analytics Product
+Select item 4
+Analytics
+ANTLY
+5000.00
+Analytics Product
+Select item 5
+Analytics
+ANTLY
+5000.00
+Analytics Product
+Select item 6
+Analytics
+ANTLY
+5000.00
+Analytics Product
+Select item 7
+Analytics
+ANTLY
+5000.00
+Analytics Product
+Select item 8
+Analytics
+ANTLY
+5000.00
+Analytics Product
+<div class="demo-only demo-only_viewport" style="height:640px">
+  <section role="dialog" tabindex="-1" class="slds-modal slds-fade-in-open slds-modal_large" aria-labelledby="id-of-modalheader-h2" aria-modal="true" aria-describedby="modal-content-id-1">
+    <div class="slds-modal__container">
+      <header class="slds-modal__header">
+        <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse" title="Close">
+          <svg class="slds-button__icon slds-button__icon_large" aria-hidden="true">
+            <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#close"></use>
+          </svg>
+          <span class="slds-assistive-text">Close</span>
+        </button>
+        <h2 id="id-of-modalheader-h2" class="slds-text-heading_medium">Add Products</h2>
+        <p class="slds-m-top_x-small">Pricebook: Salesforce Products</p>
+      </header>
+      <div class="slds-modal__content slds-grid slds-nowrap" id="modal-content-id-1">
+        <div class="slds-col slds-grid slds-grid_vertical slds-nowrap">
+          <div class="slds-p-vertical_x-small slds-p-horizontal_large slds-shrink-none slds-theme_shade">
+            <div class="slds-form-element">
+              <label class="slds-form-element__label slds-assistive-text" for="combobox-unique-id-9">Search</label>
+              <div class="slds-form-element__control">
+                <div class="slds-combobox_container">
+                  <div class="slds-combobox slds-dropdown-trigger slds-dropdown-trigger_click" aria-expanded="false" aria-haspopup="listbox" role="combobox">
+                    <div class="slds-combobox__form-element slds-input-has-icon slds-input-has-icon_right" role="none">
+                      <input type="text" class="slds-input slds-combobox__input" id="combobox-unique-id-9" aria-autocomplete="list" aria-controls="listbox-unique-id" autoComplete="off" role="textbox" placeholder="Search Salesforce" />
+                      <span class="slds-icon_container slds-icon-utility-search slds-input__icon slds-input__icon_right">
+                        <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
+                          <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#search"></use>
+                        </svg>
+                      </span>
+                    </div>
+                    <div id="listbox-unique-id" role="listbox" class="slds-dropdown slds-dropdown_fluid">
+                      <ul class="slds-listbox slds-listbox_vertical" role="presentation">
+                        <li role="presentation" class="slds-listbox__item">
+                          <div id="listbox-option-unique-id-01" class="slds-media slds-listbox__option slds-listbox__option_entity slds-listbox__option_has-meta" role="option">
+                            <span class="slds-media__figure">
+                              <span class="slds-icon_container slds-icon-standard-account">
+                                <svg class="slds-icon slds-icon_small" aria-hidden="true">
+                                  <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#account"></use>
+                                </svg>
+                              </span>
+                            </span>
+                            <span class="slds-media__body">
+                              <span class="slds-listbox__option-text slds-listbox__option-text_entity">Acme</span>
+                              <span class="slds-listbox__option-meta slds-listbox__option-meta_entity">Account • San Francisco</span>
+                            </span>
+                          </div>
+                        </li>
+                        <li role="presentation" class="slds-listbox__item">
+                          <div id="listbox-option-unique-id-02" class="slds-media slds-listbox__option slds-listbox__option_entity slds-listbox__option_has-meta" role="option">
+                            <span class="slds-media__figure">
+                              <span class="slds-icon_container slds-icon-standard-account">
+                                <svg class="slds-icon slds-icon_small" aria-hidden="true">
+                                  <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#account"></use>
+                                </svg>
+                              </span>
+                            </span>
+                            <span class="slds-media__body">
+                              <span class="slds-listbox__option-text slds-listbox__option-text_entity">Salesforce.com, Inc.</span>
+                              <span class="slds-listbox__option-meta slds-listbox__option-meta_entity">Account • San Francisco</span>
+                            </span>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slds-text-title slds-m-top_x-small" aria-live="polite">0 Item(s) Selected</div>
+          </div>
+          <div class="slds-scrollable slds-grow">
+            <div class="slds-scrollable_none">
+              <table aria-multiselectable="true" class="slds-table slds-no-row-hover slds-table_bordered slds-table_fixed-layout slds-table_resizable-cols" role="grid">
+                <thead>
+                  <tr class="slds-line-height_reset">
+                    <th class="" scope="col" style="width:3.75rem"></th>
+                    <th aria-label="Name" aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col">
+                      <a class="slds-th__action slds-text-link_reset" href="javascript:void(0);" role="button" tabindex="-1">
+                        <span class="slds-assistive-text">Sort by: </span>
+                        <div class="slds-grid slds-grid_vertical-align-center slds-has-flexi-truncate">
+                          <span class="slds-truncate" title="Name">Name</span>
+                          <span class="slds-icon_container slds-icon-utility-arrowdown">
+                            <svg class="slds-icon slds-icon-text-default slds-is-sortable__icon " aria-hidden="true">
+                              <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#arrowdown"></use>
+                            </svg>
+                          </span>
+                        </div>
+                      </a>
+                      <div class="slds-resizable">
+                        <input type="range" aria-label="Name column width" class="slds-resizable__input slds-assistive-text" id="cell-resize-handle-33" max="1000" min="20" tabindex="-1" />
+                        <span class="slds-resizable__handle">
+                          <span class="slds-resizable__divider"></span>
+                        </span>
+                      </div>
+                    </th>
+                    <th aria-label="Product Code" aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col">
+                      <a class="slds-th__action slds-text-link_reset" href="javascript:void(0);" role="button" tabindex="-1">
+                        <span class="slds-assistive-text">Sort by: </span>
+                        <div class="slds-grid slds-grid_vertical-align-center slds-has-flexi-truncate">
+                          <span class="slds-truncate" title="Product Code">Product Code</span>
+                          <span class="slds-icon_container slds-icon-utility-arrowdown">
+                            <svg class="slds-icon slds-icon-text-default slds-is-sortable__icon " aria-hidden="true">
+                              <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#arrowdown"></use>
+                            </svg>
+                          </span>
+                        </div>
+                      </a>
+                      <div class="slds-resizable">
+                        <input type="range" aria-label="Product Code column width" class="slds-resizable__input slds-assistive-text" id="cell-resize-handle-34" max="1000" min="20" tabindex="-1" />
+                        <span class="slds-resizable__handle">
+                          <span class="slds-resizable__divider"></span>
+                        </span>
+                      </div>
+                    </th>
+                    <th aria-label="List Price" aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col">
+                      <a class="slds-th__action slds-text-link_reset" href="javascript:void(0);" role="button" tabindex="-1">
+                        <span class="slds-assistive-text">Sort by: </span>
+                        <div class="slds-grid slds-grid_vertical-align-center slds-has-flexi-truncate">
+                          <span class="slds-truncate" title="List Price">List Price</span>
+                          <span class="slds-icon_container slds-icon-utility-arrowdown">
+                            <svg class="slds-icon slds-icon-text-default slds-is-sortable__icon " aria-hidden="true">
+                              <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#arrowdown"></use>
+                            </svg>
+                          </span>
+                        </div>
+                      </a>
+                      <div class="slds-resizable">
+                        <input type="range" aria-label="List Price column width" class="slds-resizable__input slds-assistive-text" id="cell-resize-handle-35" max="1000" min="20" tabindex="-1" />
+                        <span class="slds-resizable__handle">
+                          <span class="slds-resizable__divider"></span>
+                        </span>
+                      </div>
+                    </th>
+                    <th aria-label="Product Family" aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col">
+                      <a class="slds-th__action slds-text-link_reset" href="javascript:void(0);" role="button" tabindex="-1">
+                        <span class="slds-assistive-text">Sort by: </span>
+                        <div class="slds-grid slds-grid_vertical-align-center slds-has-flexi-truncate">
+                          <span class="slds-truncate" title="Product Family">Product Family</span>
+                          <span class="slds-icon_container slds-icon-utility-arrowdown">
+                            <svg class="slds-icon slds-icon-text-default slds-is-sortable__icon " aria-hidden="true">
+                              <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#arrowdown"></use>
+                            </svg>
+                          </span>
+                        </div>
+                      </a>
+                      <div class="slds-resizable">
+                        <input type="range" aria-label="Product Family column width" class="slds-resizable__input slds-assistive-text" id="cell-resize-handle-36" max="1000" min="20" tabindex="-1" />
+                        <span class="slds-resizable__handle">
+                          <span class="slds-resizable__divider"></span>
+                        </span>
+                      </div>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr aria-selected="false" class="slds-hint-parent">
+                    <td class="slds-text-align_right" role="gridcell" tabindex="0">
+                      <div class="slds-checkbox_add-button">
+                        <input type="checkbox" class="slds-assistive-text" id="add-checkbox-65" value="add-checkbox-65" disabled="" tabindex="-1" />
+                        <label for="add-checkbox-65" class="slds-checkbox_faux">
+                          <span class="slds-assistive-text">Select item 1</span>
+                        </label>
+                      </div>
+                    </td>
+                    <th scope="row">
+                      <div class="slds-truncate" title="Analytics">Analytics</div>
+                    </th>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="ANTLY">ANTLY</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="5000.00">5000.00</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+                    </td>
+                  </tr>
+                  <tr aria-selected="false" class="slds-hint-parent">
+                    <td class="slds-text-align_right" role="gridcell">
+                      <div class="slds-checkbox_add-button">
+                        <input type="checkbox" class="slds-assistive-text" id="add-checkbox-66" value="add-checkbox-66" tabindex="-1" />
+                        <label for="add-checkbox-66" class="slds-checkbox_faux">
+                          <span class="slds-assistive-text">Select item 2</span>
+                        </label>
+                      </div>
+                    </td>
+                    <th scope="row">
+                      <div class="slds-truncate" title="Analytics">Analytics</div>
+                    </th>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="ANTLY">ANTLY</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="5000.00">5000.00</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+                    </td>
+                  </tr>
+                  <tr aria-selected="false" class="slds-hint-parent">
+                    <td class="slds-text-align_right" role="gridcell">
+                      <div class="slds-checkbox_add-button">
+                        <input type="checkbox" class="slds-assistive-text" id="add-checkbox-67" value="add-checkbox-67" disabled="" tabindex="-1" />
+                        <label for="add-checkbox-67" class="slds-checkbox_faux">
+                          <span class="slds-assistive-text">Select item 3</span>
+                        </label>
+                      </div>
+                    </td>
+                    <th scope="row">
+                      <div class="slds-truncate" title="Analytics">Analytics</div>
+                    </th>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="ANTLY">ANTLY</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="5000.00">5000.00</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+                    </td>
+                  </tr>
+                  <tr aria-selected="false" class="slds-hint-parent">
+                    <td class="slds-text-align_right" role="gridcell">
+                      <div class="slds-checkbox_add-button">
+                        <input type="checkbox" class="slds-assistive-text" id="add-checkbox-68" value="add-checkbox-68" tabindex="-1" />
+                        <label for="add-checkbox-68" class="slds-checkbox_faux">
+                          <span class="slds-assistive-text">Select item 4</span>
+                        </label>
+                      </div>
+                    </td>
+                    <th scope="row">
+                      <div class="slds-truncate" title="Analytics">Analytics</div>
+                    </th>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="ANTLY">ANTLY</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="5000.00">5000.00</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+                    </td>
+                  </tr>
+                  <tr aria-selected="false" class="slds-hint-parent">
+                    <td class="slds-text-align_right" role="gridcell">
+                      <div class="slds-checkbox_add-button">
+                        <input type="checkbox" class="slds-assistive-text" id="add-checkbox-69" value="add-checkbox-69" disabled="" tabindex="-1" />
+                        <label for="add-checkbox-69" class="slds-checkbox_faux">
+                          <span class="slds-assistive-text">Select item 5</span>
+                        </label>
+                      </div>
+                    </td>
+                    <th scope="row">
+                      <div class="slds-truncate" title="Analytics">Analytics</div>
+                    </th>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="ANTLY">ANTLY</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="5000.00">5000.00</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+                    </td>
+                  </tr>
+                  <tr aria-selected="false" class="slds-hint-parent">
+                    <td class="slds-text-align_right" role="gridcell">
+                      <div class="slds-checkbox_add-button">
+                        <input type="checkbox" class="slds-assistive-text" id="add-checkbox-70" value="add-checkbox-70" tabindex="-1" />
+                        <label for="add-checkbox-70" class="slds-checkbox_faux">
+                          <span class="slds-assistive-text">Select item 6</span>
+                        </label>
+                      </div>
+                    </td>
+                    <th scope="row">
+                      <div class="slds-truncate" title="Analytics">Analytics</div>
+                    </th>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="ANTLY">ANTLY</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="5000.00">5000.00</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+                    </td>
+                  </tr>
+                  <tr aria-selected="false" class="slds-hint-parent">
+                    <td class="slds-text-align_right" role="gridcell">
+                      <div class="slds-checkbox_add-button">
+                        <input type="checkbox" class="slds-assistive-text" id="add-checkbox-71" value="add-checkbox-71" disabled="" tabindex="-1" />
+                        <label for="add-checkbox-71" class="slds-checkbox_faux">
+                          <span class="slds-assistive-text">Select item 7</span>
+                        </label>
+                      </div>
+                    </td>
+                    <th scope="row">
+                      <div class="slds-truncate" title="Analytics">Analytics</div>
+                    </th>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="ANTLY">ANTLY</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="5000.00">5000.00</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+                    </td>
+                  </tr>
+                  <tr aria-selected="false" class="slds-hint-parent">
+                    <td class="slds-text-align_right" role="gridcell">
+                      <div class="slds-checkbox_add-button">
+                        <input type="checkbox" class="slds-assistive-text" id="add-checkbox-72" value="add-checkbox-72" tabindex="-1" />
+                        <label for="add-checkbox-72" class="slds-checkbox_faux">
+                          <span class="slds-assistive-text">Select item 8</span>
+                        </label>
+                      </div>
+                    </td>
+                    <th scope="row">
+                      <div class="slds-truncate" title="Analytics">Analytics</div>
+                    </th>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="ANTLY">ANTLY</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="5000.00">5000.00</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="slds-modal__footer">
+        <button class="slds-button slds-button_neutral">Cancel</button>
+        <button class="slds-button slds-button_brand">Next</button>
+      </footer>
+    </div>
+  </section>
+  <div class="slds-backdrop slds-backdrop_open"></div>
+</div>
+Items Default Selected#
+Add Products
+Pricebook: Salesforce Products
+
+Search
+Search Salesforce
+0 Item(s) Selected
+Sort by:
+Name
+
+Sort by:
+Product Code
+
+Sort by:
+List Price
+
+Sort by:
+Product Family
+
+Select item 1
+Analytics
+ANTLY
+5000.00
+Analytics Product
+Select item 2
+Analytics
+ANTLY
+5000.00
+Analytics Product
+Select item 3
+Analytics
+ANTLY
+5000.00
+Analytics Product
+Select item 4
+Analytics
+ANTLY
+5000.00
+Analytics Product
+Select item 5
+Analytics
+ANTLY
+5000.00
+Analytics Product
+Select item 6
+Analytics
+ANTLY
+5000.00
+Analytics Product
+Select item 7
+Analytics
+ANTLY
+5000.00
+Analytics Product
+Select item 8
+Analytics
+ANTLY
+5000.00
+Analytics Product
+<div class="demo-only demo-only_viewport" style="height:640px">
+  <section role="dialog" tabindex="-1" class="slds-modal slds-fade-in-open slds-modal_large" aria-labelledby="id-of-modalheader-h2" aria-modal="true" aria-describedby="modal-content-id-1">
+    <div class="slds-modal__container">
+      <header class="slds-modal__header">
+        <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse" title="Close">
+          <svg class="slds-button__icon slds-button__icon_large" aria-hidden="true">
+            <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#close"></use>
+          </svg>
+          <span class="slds-assistive-text">Close</span>
+        </button>
+        <h2 id="id-of-modalheader-h2" class="slds-text-heading_medium">Add Products</h2>
+        <p class="slds-m-top_x-small">Pricebook: Salesforce Products</p>
+      </header>
+      <div class="slds-modal__content slds-grid slds-nowrap" id="modal-content-id-1">
+        <div class="slds-col slds-grid slds-grid_vertical slds-nowrap">
+          <div class="slds-p-vertical_x-small slds-p-horizontal_large slds-shrink-none slds-theme_shade">
+            <div class="slds-form-element">
+              <label class="slds-form-element__label slds-assistive-text" for="combobox-unique-id-12">Search</label>
+              <div class="slds-form-element__control">
+                <div class="slds-combobox_container">
+                  <div class="slds-combobox slds-dropdown-trigger slds-dropdown-trigger_click" aria-expanded="false" aria-haspopup="listbox" role="combobox">
+                    <div class="slds-combobox__form-element slds-input-has-icon slds-input-has-icon_right" role="none">
+                      <input type="text" class="slds-input slds-combobox__input" id="combobox-unique-id-12" aria-autocomplete="list" aria-controls="listbox-unique-id" autoComplete="off" role="textbox" placeholder="Search Salesforce" />
+                      <span class="slds-icon_container slds-icon-utility-search slds-input__icon slds-input__icon_right">
+                        <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
+                          <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#search"></use>
+                        </svg>
+                      </span>
+                    </div>
+                    <div id="listbox-unique-id" role="listbox" class="slds-dropdown slds-dropdown_fluid">
+                      <ul class="slds-listbox slds-listbox_vertical" role="presentation">
+                        <li role="presentation" class="slds-listbox__item">
+                          <div id="listbox-option-unique-id-01" class="slds-media slds-listbox__option slds-listbox__option_entity slds-listbox__option_has-meta" role="option">
+                            <span class="slds-media__figure">
+                              <span class="slds-icon_container slds-icon-standard-account">
+                                <svg class="slds-icon slds-icon_small" aria-hidden="true">
+                                  <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#account"></use>
+                                </svg>
+                              </span>
+                            </span>
+                            <span class="slds-media__body">
+                              <span class="slds-listbox__option-text slds-listbox__option-text_entity">Acme</span>
+                              <span class="slds-listbox__option-meta slds-listbox__option-meta_entity">Account • San Francisco</span>
+                            </span>
+                          </div>
+                        </li>
+                        <li role="presentation" class="slds-listbox__item">
+                          <div id="listbox-option-unique-id-02" class="slds-media slds-listbox__option slds-listbox__option_entity slds-listbox__option_has-meta" role="option">
+                            <span class="slds-media__figure">
+                              <span class="slds-icon_container slds-icon-standard-account">
+                                <svg class="slds-icon slds-icon_small" aria-hidden="true">
+                                  <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#account"></use>
+                                </svg>
+                              </span>
+                            </span>
+                            <span class="slds-media__body">
+                              <span class="slds-listbox__option-text slds-listbox__option-text_entity">Salesforce.com, Inc.</span>
+                              <span class="slds-listbox__option-meta slds-listbox__option-meta_entity">Account • San Francisco</span>
+                            </span>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slds-text-title slds-m-top_x-small" aria-live="polite">0 Item(s) Selected</div>
+          </div>
+          <div class="slds-scrollable slds-grow">
+            <div class="slds-scrollable_none">
+              <table aria-multiselectable="true" class="slds-table slds-no-row-hover slds-table_bordered slds-table_fixed-layout slds-table_resizable-cols" role="grid">
+                <thead>
+                  <tr class="slds-line-height_reset">
+                    <th class="" scope="col" style="width:3.75rem"></th>
+                    <th aria-label="Name" aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col">
+                      <a class="slds-th__action slds-text-link_reset" href="javascript:void(0);" role="button" tabindex="-1">
+                        <span class="slds-assistive-text">Sort by: </span>
+                        <div class="slds-grid slds-grid_vertical-align-center slds-has-flexi-truncate">
+                          <span class="slds-truncate" title="Name">Name</span>
+                          <span class="slds-icon_container slds-icon-utility-arrowdown">
+                            <svg class="slds-icon slds-icon-text-default slds-is-sortable__icon " aria-hidden="true">
+                              <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#arrowdown"></use>
+                            </svg>
+                          </span>
+                        </div>
+                      </a>
+                      <div class="slds-resizable">
+                        <input type="range" aria-label="Name column width" class="slds-resizable__input slds-assistive-text" id="cell-resize-handle-45" max="1000" min="20" tabindex="-1" />
+                        <span class="slds-resizable__handle">
+                          <span class="slds-resizable__divider"></span>
+                        </span>
+                      </div>
+                    </th>
+                    <th aria-label="Product Code" aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col">
+                      <a class="slds-th__action slds-text-link_reset" href="javascript:void(0);" role="button" tabindex="-1">
+                        <span class="slds-assistive-text">Sort by: </span>
+                        <div class="slds-grid slds-grid_vertical-align-center slds-has-flexi-truncate">
+                          <span class="slds-truncate" title="Product Code">Product Code</span>
+                          <span class="slds-icon_container slds-icon-utility-arrowdown">
+                            <svg class="slds-icon slds-icon-text-default slds-is-sortable__icon " aria-hidden="true">
+                              <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#arrowdown"></use>
+                            </svg>
+                          </span>
+                        </div>
+                      </a>
+                      <div class="slds-resizable">
+                        <input type="range" aria-label="Product Code column width" class="slds-resizable__input slds-assistive-text" id="cell-resize-handle-46" max="1000" min="20" tabindex="-1" />
+                        <span class="slds-resizable__handle">
+                          <span class="slds-resizable__divider"></span>
+                        </span>
+                      </div>
+                    </th>
+                    <th aria-label="List Price" aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col">
+                      <a class="slds-th__action slds-text-link_reset" href="javascript:void(0);" role="button" tabindex="-1">
+                        <span class="slds-assistive-text">Sort by: </span>
+                        <div class="slds-grid slds-grid_vertical-align-center slds-has-flexi-truncate">
+                          <span class="slds-truncate" title="List Price">List Price</span>
+                          <span class="slds-icon_container slds-icon-utility-arrowdown">
+                            <svg class="slds-icon slds-icon-text-default slds-is-sortable__icon " aria-hidden="true">
+                              <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#arrowdown"></use>
+                            </svg>
+                          </span>
+                        </div>
+                      </a>
+                      <div class="slds-resizable">
+                        <input type="range" aria-label="List Price column width" class="slds-resizable__input slds-assistive-text" id="cell-resize-handle-47" max="1000" min="20" tabindex="-1" />
+                        <span class="slds-resizable__handle">
+                          <span class="slds-resizable__divider"></span>
+                        </span>
+                      </div>
+                    </th>
+                    <th aria-label="Product Family" aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col">
+                      <a class="slds-th__action slds-text-link_reset" href="javascript:void(0);" role="button" tabindex="-1">
+                        <span class="slds-assistive-text">Sort by: </span>
+                        <div class="slds-grid slds-grid_vertical-align-center slds-has-flexi-truncate">
+                          <span class="slds-truncate" title="Product Family">Product Family</span>
+                          <span class="slds-icon_container slds-icon-utility-arrowdown">
+                            <svg class="slds-icon slds-icon-text-default slds-is-sortable__icon " aria-hidden="true">
+                              <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#arrowdown"></use>
+                            </svg>
+                          </span>
+                        </div>
+                      </a>
+                      <div class="slds-resizable">
+                        <input type="range" aria-label="Product Family column width" class="slds-resizable__input slds-assistive-text" id="cell-resize-handle-48" max="1000" min="20" tabindex="-1" />
+                        <span class="slds-resizable__handle">
+                          <span class="slds-resizable__divider"></span>
+                        </span>
+                      </div>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr aria-selected="false" class="slds-hint-parent">
+                    <td class="slds-text-align_right" role="gridcell" tabindex="0">
+                      <div class="slds-checkbox_add-button">
+                        <input type="checkbox" class="slds-assistive-text" id="add-checkbox-89" value="add-checkbox-89" tabindex="-1" />
+                        <label for="add-checkbox-89" class="slds-checkbox_faux">
+                          <span class="slds-assistive-text">Select item 1</span>
+                        </label>
+                      </div>
+                    </td>
+                    <th scope="row">
+                      <div class="slds-truncate" title="Analytics">Analytics</div>
+                    </th>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="ANTLY">ANTLY</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="5000.00">5000.00</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+                    </td>
+                  </tr>
+                  <tr aria-selected="true" class="slds-hint-parent slds-is-selected">
+                    <td class="slds-text-align_right" role="gridcell">
+                      <div class="slds-checkbox_add-button">
+                        <input type="checkbox" class="slds-assistive-text" id="add-checkbox-90" value="add-checkbox-90" disabled="" tabindex="-1" checked="" />
+                        <label for="add-checkbox-90" class="slds-checkbox_faux">
+                          <span class="slds-assistive-text">Select item 2</span>
+                        </label>
+                      </div>
+                    </td>
+                    <th scope="row">
+                      <div class="slds-truncate" title="Analytics">Analytics</div>
+                    </th>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="ANTLY">ANTLY</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="5000.00">5000.00</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+                    </td>
+                  </tr>
+                  <tr aria-selected="false" class="slds-hint-parent">
+                    <td class="slds-text-align_right" role="gridcell">
+                      <div class="slds-checkbox_add-button">
+                        <input type="checkbox" class="slds-assistive-text" id="add-checkbox-91" value="add-checkbox-91" tabindex="-1" />
+                        <label for="add-checkbox-91" class="slds-checkbox_faux">
+                          <span class="slds-assistive-text">Select item 3</span>
+                        </label>
+                      </div>
+                    </td>
+                    <th scope="row">
+                      <div class="slds-truncate" title="Analytics">Analytics</div>
+                    </th>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="ANTLY">ANTLY</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="5000.00">5000.00</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+                    </td>
+                  </tr>
+                  <tr aria-selected="true" class="slds-hint-parent slds-is-selected">
+                    <td class="slds-text-align_right" role="gridcell">
+                      <div class="slds-checkbox_add-button">
+                        <input type="checkbox" class="slds-assistive-text" id="add-checkbox-92" value="add-checkbox-92" disabled="" tabindex="-1" checked="" />
+                        <label for="add-checkbox-92" class="slds-checkbox_faux">
+                          <span class="slds-assistive-text">Select item 4</span>
+                        </label>
+                      </div>
+                    </td>
+                    <th scope="row">
+                      <div class="slds-truncate" title="Analytics">Analytics</div>
+                    </th>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="ANTLY">ANTLY</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="5000.00">5000.00</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+                    </td>
+                  </tr>
+                  <tr aria-selected="false" class="slds-hint-parent">
+                    <td class="slds-text-align_right" role="gridcell">
+                      <div class="slds-checkbox_add-button">
+                        <input type="checkbox" class="slds-assistive-text" id="add-checkbox-93" value="add-checkbox-93" tabindex="-1" />
+                        <label for="add-checkbox-93" class="slds-checkbox_faux">
+                          <span class="slds-assistive-text">Select item 5</span>
+                        </label>
+                      </div>
+                    </td>
+                    <th scope="row">
+                      <div class="slds-truncate" title="Analytics">Analytics</div>
+                    </th>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="ANTLY">ANTLY</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="5000.00">5000.00</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+                    </td>
+                  </tr>
+                  <tr aria-selected="true" class="slds-hint-parent slds-is-selected">
+                    <td class="slds-text-align_right" role="gridcell">
+                      <div class="slds-checkbox_add-button">
+                        <input type="checkbox" class="slds-assistive-text" id="add-checkbox-94" value="add-checkbox-94" disabled="" tabindex="-1" checked="" />
+                        <label for="add-checkbox-94" class="slds-checkbox_faux">
+                          <span class="slds-assistive-text">Select item 6</span>
+                        </label>
+                      </div>
+                    </td>
+                    <th scope="row">
+                      <div class="slds-truncate" title="Analytics">Analytics</div>
+                    </th>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="ANTLY">ANTLY</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="5000.00">5000.00</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+                    </td>
+                  </tr>
+                  <tr aria-selected="false" class="slds-hint-parent">
+                    <td class="slds-text-align_right" role="gridcell">
+                      <div class="slds-checkbox_add-button">
+                        <input type="checkbox" class="slds-assistive-text" id="add-checkbox-95" value="add-checkbox-95" tabindex="-1" />
+                        <label for="add-checkbox-95" class="slds-checkbox_faux">
+                          <span class="slds-assistive-text">Select item 7</span>
+                        </label>
+                      </div>
+                    </td>
+                    <th scope="row">
+                      <div class="slds-truncate" title="Analytics">Analytics</div>
+                    </th>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="ANTLY">ANTLY</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="5000.00">5000.00</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+                    </td>
+                  </tr>
+                  <tr aria-selected="true" class="slds-hint-parent slds-is-selected">
+                    <td class="slds-text-align_right" role="gridcell">
+                      <div class="slds-checkbox_add-button">
+                        <input type="checkbox" class="slds-assistive-text" id="add-checkbox-96" value="add-checkbox-96" disabled="" tabindex="-1" checked="" />
+                        <label for="add-checkbox-96" class="slds-checkbox_faux">
+                          <span class="slds-assistive-text">Select item 8</span>
+                        </label>
+                      </div>
+                    </td>
+                    <th scope="row">
+                      <div class="slds-truncate" title="Analytics">Analytics</div>
+                    </th>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="ANTLY">ANTLY</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="5000.00">5000.00</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="slds-modal__footer">
+        <button class="slds-button slds-button_neutral">Cancel</button>
+        <button class="slds-button slds-button_brand">Next</button>
+      </footer>
+    </div>
+  </section>
+  <div class="slds-backdrop slds-backdrop_open"></div>
+</div>
+Examples#
+Two Column with Hidden Header#
+Add Products
+Pricebook: Salesforce Products
+
+Search
+Search Salesforce
+Option A
+Press delete or backspace to remove
+Option B
+Press delete or backspace to remove
+2 Item(s) Selected
+Sort by:
+Name
+
+Sort by:
+Product Code
+
+Sort by:
+List Price
+
+Sort by:
+Product Family
+
+Select item 1
+Analytics
+ANTLY
+5000.00
+Analytics Product
+<div class="demo-only demo-only_viewport" style="height:640px">
+  <section role="dialog" tabindex="-1" class="slds-modal slds-fade-in-open slds-modal_large" aria-labelledby="id-of-modalheader-h2" aria-modal="true" aria-describedby="modal-content-id-1">
+    <div class="slds-modal__container">
+      <header class="slds-modal__header">
+        <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse" title="Close">
+          <svg class="slds-button__icon slds-button__icon_large" aria-hidden="true">
+            <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#close"></use>
+          </svg>
+          <span class="slds-assistive-text">Close</span>
+        </button>
+        <h2 id="id-of-modalheader-h2" class="slds-text-heading_medium">Add Products</h2>
+        <p class="slds-m-top_x-small">Pricebook: Salesforce Products</p>
+      </header>
+      <div class="slds-modal__content slds-grid slds-grow" id="modal-content-id-1">
+        <div class="slds-grid slds-grid_vertical">
+          <div class="slds-p-vertical_x-small slds-p-horizontal_large slds-shrink-none slds-theme_shade">
+            <div class="slds-form-element">
+              <label class="slds-form-element__label slds-assistive-text" for="combobox-unique-id-15">Search</label>
+              <div class="slds-form-element__control">
+                <div class="slds-combobox_container">
+                  <div class="slds-combobox slds-dropdown-trigger slds-dropdown-trigger_click" aria-expanded="false" aria-haspopup="listbox" role="combobox">
+                    <div class="slds-combobox__form-element slds-input-has-icon slds-input-has-icon_right" role="none">
+                      <input type="text" class="slds-input slds-combobox__input" id="combobox-unique-id-15" aria-autocomplete="list" aria-controls="listbox-unique-id" autoComplete="off" role="textbox" placeholder="Search Salesforce" />
+                      <span class="slds-icon_container slds-icon-utility-search slds-input__icon slds-input__icon_right">
+                        <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
+                          <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#search"></use>
+                        </svg>
+                      </span>
+                    </div>
+                    <div id="listbox-unique-id" role="listbox" class="slds-dropdown slds-dropdown_fluid">
+                      <ul class="slds-listbox slds-listbox_vertical" role="presentation">
+                        <li role="presentation" class="slds-listbox__item">
+                          <div id="listbox-option-unique-id-01" class="slds-media slds-listbox__option slds-listbox__option_entity slds-listbox__option_has-meta" role="option">
+                            <span class="slds-media__figure">
+                              <span class="slds-icon_container slds-icon-standard-account">
+                                <svg class="slds-icon slds-icon_small" aria-hidden="true">
+                                  <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#account"></use>
+                                </svg>
+                              </span>
+                            </span>
+                            <span class="slds-media__body">
+                              <span class="slds-listbox__option-text slds-listbox__option-text_entity">Acme</span>
+                              <span class="slds-listbox__option-meta slds-listbox__option-meta_entity">Account • San Francisco</span>
+                            </span>
+                          </div>
+                        </li>
+                        <li role="presentation" class="slds-listbox__item">
+                          <div id="listbox-option-unique-id-02" class="slds-media slds-listbox__option slds-listbox__option_entity slds-listbox__option_has-meta" role="option">
+                            <span class="slds-media__figure">
+                              <span class="slds-icon_container slds-icon-standard-account">
+                                <svg class="slds-icon slds-icon_small" aria-hidden="true">
+                                  <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#account"></use>
+                                </svg>
+                              </span>
+                            </span>
+                            <span class="slds-media__body">
+                              <span class="slds-listbox__option-text slds-listbox__option-text_entity">Salesforce.com, Inc.</span>
+                              <span class="slds-listbox__option-meta slds-listbox__option-meta_entity">Account • San Francisco</span>
+                            </span>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slds-pill_container slds-pill_container_bare">
+              <ul class="slds-listbox slds-listbox_horizontal" role="listbox" aria-label="Selected Options:" aria-orientation="horizontal">
+                <li class="slds-listbox-item" role="presentation">
+                  <span class="slds-pill" role="option" tabindex="0" aria-selected="true">
+                    <span class="slds-pill__label" title="Option A">Option A</span>
+                    <span class="slds-icon_container slds-pill__remove" title="Remove">
+                      <svg class="slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
+                        <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#close"></use>
+                      </svg>
+                      <span class="slds-assistive-text">Press delete or backspace to remove</span>
+                    </span>
+                  </span>
+                </li>
+                <li class="slds-listbox-item" role="presentation">
+                  <span class="slds-pill" role="option" aria-selected="true">
+                    <span class="slds-pill__label" title="Option B">Option B</span>
+                    <span class="slds-icon_container slds-pill__remove" title="Remove">
+                      <svg class="slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
+                        <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#close"></use>
+                      </svg>
+                      <span class="slds-assistive-text">Press delete or backspace to remove</span>
+                    </span>
+                  </span>
+                </li>
+              </ul>
+            </div>
+            <div class="slds-text-title slds-m-top_x-small" aria-live="polite">2 Item(s) Selected</div>
+          </div>
+          <div class="slds-scrollable slds-grow">
+            <div class="slds-scrollable_none">
+              <table aria-multiselectable="true" class="slds-table slds-no-row-hover slds-table_bordered slds-table_fixed-layout slds-table_resizable-cols" role="grid">
+                <thead>
+                  <tr class="slds-line-height_reset">
+                    <th class="" scope="col" style="width:3.75rem"></th>
+                    <th aria-label="Name" aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col">
+                      <a class="slds-th__action slds-text-link_reset" href="javascript:void(0);" role="button" tabindex="-1">
+                        <span class="slds-assistive-text">Sort by: </span>
+                        <div class="slds-grid slds-grid_vertical-align-center slds-has-flexi-truncate">
+                          <span class="slds-truncate" title="Name">Name</span>
+                          <span class="slds-icon_container slds-icon-utility-arrowdown">
+                            <svg class="slds-icon slds-icon-text-default slds-is-sortable__icon " aria-hidden="true">
+                              <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#arrowdown"></use>
+                            </svg>
+                          </span>
+                        </div>
+                      </a>
+                      <div class="slds-resizable">
+                        <input type="range" aria-label="Name column width" class="slds-resizable__input slds-assistive-text" id="cell-resize-handle-57" max="1000" min="20" tabindex="-1" />
+                        <span class="slds-resizable__handle">
+                          <span class="slds-resizable__divider"></span>
+                        </span>
+                      </div>
+                    </th>
+                    <th aria-label="Product Code" aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col">
+                      <a class="slds-th__action slds-text-link_reset" href="javascript:void(0);" role="button" tabindex="-1">
+                        <span class="slds-assistive-text">Sort by: </span>
+                        <div class="slds-grid slds-grid_vertical-align-center slds-has-flexi-truncate">
+                          <span class="slds-truncate" title="Product Code">Product Code</span>
+                          <span class="slds-icon_container slds-icon-utility-arrowdown">
+                            <svg class="slds-icon slds-icon-text-default slds-is-sortable__icon " aria-hidden="true">
+                              <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#arrowdown"></use>
+                            </svg>
+                          </span>
+                        </div>
+                      </a>
+                      <div class="slds-resizable">
+                        <input type="range" aria-label="Product Code column width" class="slds-resizable__input slds-assistive-text" id="cell-resize-handle-58" max="1000" min="20" tabindex="-1" />
+                        <span class="slds-resizable__handle">
+                          <span class="slds-resizable__divider"></span>
+                        </span>
+                      </div>
+                    </th>
+                    <th aria-label="List Price" aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col">
+                      <a class="slds-th__action slds-text-link_reset" href="javascript:void(0);" role="button" tabindex="-1">
+                        <span class="slds-assistive-text">Sort by: </span>
+                        <div class="slds-grid slds-grid_vertical-align-center slds-has-flexi-truncate">
+                          <span class="slds-truncate" title="List Price">List Price</span>
+                          <span class="slds-icon_container slds-icon-utility-arrowdown">
+                            <svg class="slds-icon slds-icon-text-default slds-is-sortable__icon " aria-hidden="true">
+                              <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#arrowdown"></use>
+                            </svg>
+                          </span>
+                        </div>
+                      </a>
+                      <div class="slds-resizable">
+                        <input type="range" aria-label="List Price column width" class="slds-resizable__input slds-assistive-text" id="cell-resize-handle-59" max="1000" min="20" tabindex="-1" />
+                        <span class="slds-resizable__handle">
+                          <span class="slds-resizable__divider"></span>
+                        </span>
+                      </div>
+                    </th>
+                    <th aria-label="Product Family" aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col">
+                      <a class="slds-th__action slds-text-link_reset" href="javascript:void(0);" role="button" tabindex="-1">
+                        <span class="slds-assistive-text">Sort by: </span>
+                        <div class="slds-grid slds-grid_vertical-align-center slds-has-flexi-truncate">
+                          <span class="slds-truncate" title="Product Family">Product Family</span>
+                          <span class="slds-icon_container slds-icon-utility-arrowdown">
+                            <svg class="slds-icon slds-icon-text-default slds-is-sortable__icon " aria-hidden="true">
+                              <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#arrowdown"></use>
+                            </svg>
+                          </span>
+                        </div>
+                      </a>
+                      <div class="slds-resizable">
+                        <input type="range" aria-label="Product Family column width" class="slds-resizable__input slds-assistive-text" id="cell-resize-handle-60" max="1000" min="20" tabindex="-1" />
+                        <span class="slds-resizable__handle">
+                          <span class="slds-resizable__divider"></span>
+                        </span>
+                      </div>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr aria-selected="false" class="slds-hint-parent">
+                    <td class="slds-text-align_right" role="gridcell" tabindex="0">
+                      <div class="slds-checkbox_add-button">
+                        <input type="checkbox" class="slds-assistive-text" id="add-checkbox-99" value="add-checkbox-99" tabindex="-1" />
+                        <label for="add-checkbox-99" class="slds-checkbox_faux">
+                          <span class="slds-assistive-text">Select item 1</span>
+                        </label>
+                      </div>
+                    </td>
+                    <th scope="row">
+                      <div class="slds-truncate" title="Analytics">Analytics</div>
+                    </th>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="ANTLY">ANTLY</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="5000.00">5000.00</div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="slds-modal__footer">
+        <button class="slds-button slds-button_neutral">Cancel</button>
+        <button class="slds-button slds-button_brand">Next</button>
+      </footer>
+    </div>
+  </section>
+  <div class="slds-backdrop slds-backdrop_open"></div>
+</div>
+Filtered Results#
+Add Products
+Pricebook: Salesforce Products
+
+Search
+Search Salesforce
+0 Item(s) Selected
+Product Name
+Select item 1
+Analytics
+Select item 2
+Analytics
+Select item 3
+Analytics
+Select item 4
+Analytics
+Select item 5
+Analytics
+Select item 6
+Analytics
+Select item 7
+Analytics
+Select item 8
+Analytics
+<div class="demo-only demo-only_viewport" style="height:640px">
+  <section role="dialog" tabindex="-1" class="slds-modal slds-fade-in-open slds-modal_large" aria-labelledby="id-of-modalheader-h2" aria-modal="true" aria-describedby="modal-content-id-1">
+    <div class="slds-modal__container">
+      <header class="slds-modal__header">
+        <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse" title="Close">
+          <svg class="slds-button__icon slds-button__icon_large" aria-hidden="true">
+            <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#close"></use>
+          </svg>
+          <span class="slds-assistive-text">Close</span>
+        </button>
+        <h2 id="id-of-modalheader-h2" class="slds-text-heading_medium">Add Products</h2>
+        <p class="slds-m-top_x-small">Pricebook: Salesforce Products</p>
+      </header>
+      <div class="slds-modal__content slds-grid slds-nowrap" id="modal-content-id-1">
+        <div class="slds-col slds-grid slds-grid_vertical slds-nowrap">
+          <div class="slds-p-vertical_x-small slds-p-horizontal_large slds-shrink-none slds-theme_shade">
+            <div class="slds-form-element">
+              <label class="slds-form-element__label slds-assistive-text" for="combobox-unique-id-18">Search</label>
+              <div class="slds-form-element__control">
+                <div class="slds-combobox_container">
+                  <div class="slds-combobox slds-dropdown-trigger slds-dropdown-trigger_click" aria-expanded="false" aria-haspopup="listbox" role="combobox">
+                    <div class="slds-combobox__form-element slds-input-has-icon slds-input-has-icon_right" role="none">
+                      <input type="text" class="slds-input slds-combobox__input" id="combobox-unique-id-18" aria-autocomplete="list" aria-controls="listbox-unique-id" autoComplete="off" role="textbox" placeholder="Search Salesforce" />
+                      <span class="slds-icon_container slds-icon-utility-search slds-input__icon slds-input__icon_right">
+                        <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
+                          <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#search"></use>
+                        </svg>
+                      </span>
+                    </div>
+                    <div id="listbox-unique-id" role="listbox" class="slds-dropdown slds-dropdown_fluid">
+                      <ul class="slds-listbox slds-listbox_vertical" role="presentation">
+                        <li role="presentation" class="slds-listbox__item">
+                          <div id="listbox-option-unique-id-01" class="slds-media slds-listbox__option slds-listbox__option_entity slds-listbox__option_has-meta" role="option">
+                            <span class="slds-media__figure">
+                              <span class="slds-icon_container slds-icon-standard-account">
+                                <svg class="slds-icon slds-icon_small" aria-hidden="true">
+                                  <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#account"></use>
+                                </svg>
+                              </span>
+                            </span>
+                            <span class="slds-media__body">
+                              <span class="slds-listbox__option-text slds-listbox__option-text_entity">Acme</span>
+                              <span class="slds-listbox__option-meta slds-listbox__option-meta_entity">Account • San Francisco</span>
+                            </span>
+                          </div>
+                        </li>
+                        <li role="presentation" class="slds-listbox__item">
+                          <div id="listbox-option-unique-id-02" class="slds-media slds-listbox__option slds-listbox__option_entity slds-listbox__option_has-meta" role="option">
+                            <span class="slds-media__figure">
+                              <span class="slds-icon_container slds-icon-standard-account">
+                                <svg class="slds-icon slds-icon_small" aria-hidden="true">
+                                  <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#account"></use>
+                                </svg>
+                              </span>
+                            </span>
+                            <span class="slds-media__body">
+                              <span class="slds-listbox__option-text slds-listbox__option-text_entity">Salesforce.com, Inc.</span>
+                              <span class="slds-listbox__option-meta slds-listbox__option-meta_entity">Account • San Francisco</span>
+                            </span>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slds-text-title slds-m-top_x-small" aria-live="polite">0 Item(s) Selected</div>
+          </div>
+          <div class="slds-scrollable slds-grow">
+            <div class="slds-scrollable_none">
+              <table aria-multiselectable="true" class="slds-table slds-table_header-hidden slds-no-row-hover slds-table_bordered" role="grid">
+                <thead class="slds-assistive-text">
+                  <tr class="slds-line-height_reset">
+                    <th class="" scope="col" style="width:3.75rem"></th>
+                    <th aria-label="Product Name" class="" scope="col">
+                      <div class="slds-truncate" title="Product Name">Product Name</div>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr aria-selected="false" class="slds-hint-parent">
+                    <td class="slds-text-align_right" role="gridcell" style="width:3.75rem" tabindex="0">
+                      <div class="slds-checkbox_add-button">
+                        <input type="checkbox" class="slds-assistive-text" id="add-checkbox-116" value="add-checkbox-116" tabindex="-1" />
+                        <label for="add-checkbox-116" class="slds-checkbox_faux">
+                          <span class="slds-assistive-text">Select item 1</span>
+                        </label>
+                      </div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="Analytics">Analytics</div>
+                    </td>
+                  </tr>
+                  <tr aria-selected="false" class="slds-hint-parent">
+                    <td class="slds-text-align_right" role="gridcell" style="width:3.75rem" tabindex="-1">
+                      <div class="slds-checkbox_add-button">
+                        <input type="checkbox" class="slds-assistive-text" id="add-checkbox-117" value="add-checkbox-117" tabindex="-1" />
+                        <label for="add-checkbox-117" class="slds-checkbox_faux">
+                          <span class="slds-assistive-text">Select item 2</span>
+                        </label>
+                      </div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="Analytics">Analytics</div>
+                    </td>
+                  </tr>
+                  <tr aria-selected="false" class="slds-hint-parent">
+                    <td class="slds-text-align_right" role="gridcell" style="width:3.75rem" tabindex="-1">
+                      <div class="slds-checkbox_add-button">
+                        <input type="checkbox" class="slds-assistive-text" id="add-checkbox-118" value="add-checkbox-118" tabindex="-1" />
+                        <label for="add-checkbox-118" class="slds-checkbox_faux">
+                          <span class="slds-assistive-text">Select item 3</span>
+                        </label>
+                      </div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="Analytics">Analytics</div>
+                    </td>
+                  </tr>
+                  <tr aria-selected="false" class="slds-hint-parent">
+                    <td class="slds-text-align_right" role="gridcell" style="width:3.75rem" tabindex="-1">
+                      <div class="slds-checkbox_add-button">
+                        <input type="checkbox" class="slds-assistive-text" id="add-checkbox-119" value="add-checkbox-119" tabindex="-1" />
+                        <label for="add-checkbox-119" class="slds-checkbox_faux">
+                          <span class="slds-assistive-text">Select item 4</span>
+                        </label>
+                      </div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="Analytics">Analytics</div>
+                    </td>
+                  </tr>
+                  <tr aria-selected="false" class="slds-hint-parent">
+                    <td class="slds-text-align_right" role="gridcell" style="width:3.75rem" tabindex="-1">
+                      <div class="slds-checkbox_add-button">
+                        <input type="checkbox" class="slds-assistive-text" id="add-checkbox-120" value="add-checkbox-120" tabindex="-1" />
+                        <label for="add-checkbox-120" class="slds-checkbox_faux">
+                          <span class="slds-assistive-text">Select item 5</span>
+                        </label>
+                      </div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="Analytics">Analytics</div>
+                    </td>
+                  </tr>
+                  <tr aria-selected="false" class="slds-hint-parent">
+                    <td class="slds-text-align_right" role="gridcell" style="width:3.75rem" tabindex="-1">
+                      <div class="slds-checkbox_add-button">
+                        <input type="checkbox" class="slds-assistive-text" id="add-checkbox-121" value="add-checkbox-121" tabindex="-1" />
+                        <label for="add-checkbox-121" class="slds-checkbox_faux">
+                          <span class="slds-assistive-text">Select item 6</span>
+                        </label>
+                      </div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="Analytics">Analytics</div>
+                    </td>
+                  </tr>
+                  <tr aria-selected="false" class="slds-hint-parent">
+                    <td class="slds-text-align_right" role="gridcell" style="width:3.75rem" tabindex="-1">
+                      <div class="slds-checkbox_add-button">
+                        <input type="checkbox" class="slds-assistive-text" id="add-checkbox-122" value="add-checkbox-122" tabindex="-1" />
+                        <label for="add-checkbox-122" class="slds-checkbox_faux">
+                          <span class="slds-assistive-text">Select item 7</span>
+                        </label>
+                      </div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="Analytics">Analytics</div>
+                    </td>
+                  </tr>
+                  <tr aria-selected="false" class="slds-hint-parent">
+                    <td class="slds-text-align_right" role="gridcell" style="width:3.75rem" tabindex="-1">
+                      <div class="slds-checkbox_add-button">
+                        <input type="checkbox" class="slds-assistive-text" id="add-checkbox-123" value="add-checkbox-123" tabindex="-1" />
+                        <label for="add-checkbox-123" class="slds-checkbox_faux">
+                          <span class="slds-assistive-text">Select item 8</span>
+                        </label>
+                      </div>
+                    </td>
+                    <td role="gridcell">
+                      <div class="slds-truncate" title="Analytics">Analytics</div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="slds-modal__footer">
+        <button class="slds-button slds-button_neutral">Cancel</button>
+        <button class="slds-button slds-button_brand">Next</button>
+      </footer>
+    </div>
+  </section>
+  <div class="slds-backdrop slds-backdrop_open"></div>
+</div>
+Overview of CSS Classes
+Selector	.slds-list-builder
+Summary	
+Support	dev-ready
+Restrict	div, section
+Variant	True
+2.7.0
+Added
+Added examples for list builders with disabled items and items selected by default.
+Added an example of a list builder with a headless table
+Changed
+List Builder now requires aria-multiselectable="true" applied to the table element.
+Each row now requires aria-selected to be set to false on every row that is not selected
+Terms of Service
+Privacy
+Responsible Disclosure
+Trust
+© Copyright 2015-present Salesforce.com, inc. All rights reserved. Various trademarks held by their respective owners.
+
+Salesforce.com, inc. The Landmark at One Market, Suite 300, San Francisco, CA 94105, United States
+
+Site: Version 1.2.5 | Framework: Version 2.9.3. Last Updated on May 28th 2019, 8:37 pm.
+Twitter
+Dribbble
+GitHub Repository
 
 {% endblock %}
